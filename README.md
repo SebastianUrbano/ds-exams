@@ -19,7 +19,7 @@ Https://developer.okta.com/blog/2018/12/20/crud-app-with-python-flask-react
 Luego de realizar diferentes adaptaciónes a la aplicación propuesta en el tutorial se procedió con la construcción de un vagrant file el cual contempla las siguientes máquinas con las siguientes direcciones y sistemas operativos:
 
 ```
-   Web-1: Servidor web con front y back ejecutandose : 192.168.33.11  : Ubuntu 
+   Web-1: Servidor web con front y back ejecutandose : 192.168.33.11  : Ubuntu 18.04 
    Web-2: Servidor web con front y back ejecutandose : 192.168.33.12  : CentOS 7
    Lb   : LoadBalancer conectado a Web-1 y Web-2     : 192.168.33.200 : CentOS 7
    Db   : Base de datos con MongoDB ejecutandose     : 192.168.33.14  : CentOS 7
